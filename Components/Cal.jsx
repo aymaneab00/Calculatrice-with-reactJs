@@ -7,7 +7,7 @@ export default function Cal() {
 
     const updatdisplay = (value) =>{
         setdisplay(display+value)
-        if (operations.includes(value)==false) {
+        if (!operations.includes(value)) {
             setresult (eval(display+value).toString())
         
         }

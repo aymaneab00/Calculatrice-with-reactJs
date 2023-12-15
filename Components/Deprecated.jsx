@@ -5,7 +5,7 @@ function App() {
   const [ciudad, setciudad] = useState("");
   const [infos, setinfos] = useState(null);
 // function getweather (){
-//   const apikey= '47854b5774767267df5a326023f9f30f'
+//   const apikey= '#'
 //   const url = `httpd://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apikey}&units-metric `;
 //   // const url = `http://api.openweathermap.org/geo/1.0/direct?q=${ciudad}&limit=5&appid=${apikey} `
 
